@@ -1,0 +1,110 @@
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;              /* Margen exterior */
+}
+
+/* HEADER */
+header {
+    background-color: #1d428a;
+    color: white;
+    text-align: center;
+    padding: 20px;             /* Espaciado interior */
+    margin-bottom: 20px;       /* Separación con el nav */
+}
+
+/* NAV ORDENADOR */
+#nav_Ordenador {
+    background-color: #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#nav_Ordenador ul {
+    display: flex;             /* FLEX para poner en línea */
+    justify-content: center;   /* Centrado horizontal */
+    list-style: none;
+}
+
+#nav_Ordenador li {
+    margin: 0 15px;            /* Espacio entre enlaces */
+}
+
+#nav_Ordenador a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;     /* Permite padding */
+    padding: 8px 12px;
+}
+
+#nav_Ordenador a:hover {
+    background-color: #1d428a;
+}
+p::first-letter {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* NAV MOVIL */
+#nav_movil {
+    display: none;             /* Oculto por defecto */
+    margin-bottom: 20px;
+}
+
+#desplegable {
+    width: 100%;
+    padding: 8px;
+}
+
+/* MAIN */
+main {
+    margin-bottom: 20px;
+}
+
+/* SECCIONES */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* ARTÍCULOS */
+article {
+    background-color: #eaeaea;
+    padding: 15px;
+    margin: 10px 0;
+    display: block;            /* Cada artículo ocupa su línea */
+}
+
+/* FOOTER */
+footer {
+    background-color: #1d428a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #nav_Ordenador {
+        display: none;
+    }
+
+    #nav_movil {
+        display: block;
+    }
+
+    #nav_Ordenador ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
