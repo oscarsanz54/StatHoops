@@ -261,7 +261,7 @@ tabla.innerHTML = `
 </tr>
 
 <tr>
-<td><img src="../IMG/EMBIID.avif"></td>
+<td><img src="../IMG/Embiid.avif"></td>
 <td>Joel Embiid</td>
 <td>PHI</td>
 <td>33.1</td>
@@ -324,7 +324,7 @@ tabla.innerHTML = `
 </tr>
 
 <tr>
-<td><img src="../IMG/RANDLE.avif"></td>
+<td><img src="../IMG/Randle.avif"></td>
 <td>Julius Randle</td>
 <td>NYK</td>
 <td>25.1</td>
